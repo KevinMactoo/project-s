@@ -1,0 +1,236 @@
+html{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+header{
+  background-color: #fff;
+}
+.head{
+  padding-top: 20px;
+  text-align: center;
+}
+.head .button{
+  padding-left: 800px;
+}
+.button :hover{
+  background-color: #ddd;
+  color: black;
+}
+/* Add a black background color to the top navigation */
+.nav-bar {
+  background-color: #fff;
+  overflow: hidden;
+  padding-left: 500px;
+}
+
+/* Style the links inside the navigation bar */
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav-bar a.active {
+  background-color: #ddd;
+  color: black;
+}
+.container-1{
+  margin-top: 40px;
+  padding-bottom: 30px;
+  background-color: #4adbac;
+}
+.container-1,h1{
+  text-align: center;
+  padding-top: 50px;
+}
+.news{
+  background-color: #0b3c5d;
+  padding-top: 70px;
+}
+.main{
+  display: flex;
+}
+.p-1{
+  flex: 1;
+}
+.p-2{
+  flex: 1;
+}
+.main2{
+  display: flex;
+}
+.p-3{
+  flex: 1;
+}
+.p-4{
+  flex: 1;
+}
+.contactus{
+  margin-top: 0px;
+  padding-bottom: 30px;
+  background-color: #4adbac;
+}
+.quote{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+.quote{
+/*  position: absolute;*/
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0b3c5d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.p-2 {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+/*  position: absolute;*/
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+/*  position: absolute;*/
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  /*position: absolute;*/
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.log{
+  display: flex;
+}
+.l-1{
+  flex: 1;
+}
+.l-2{
+  flex: 1;
+}
